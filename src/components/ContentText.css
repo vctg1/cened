@@ -1,0 +1,31 @@
+.ContentText strong{
+    color: rgb(75 85 99);;   
+}
+
+.ContentText li{
+    list-style: disc;
+    display: block;
+    text-align: justify;
+}
+
+.ContentText{
+    width: 95%;
+    display: flex;
+}
+button.MuiButton-root{
+    position: unset;
+}
+span.MuiTouchRipple-root{
+    position: unset;
+}
+@media screen and (max-width:1100px) {
+    .ContentText li{
+        padding-left: 0px;
+        text-align: start;
+        
+    }
+    .ContentText{
+        width: 90%;
+        display: flex;
+    }
+}
