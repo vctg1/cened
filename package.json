@@ -1,6 +1,6 @@
 {
   "name": "cened",
-  "homepage": "http://vctg1.github.io/cened",
+  "homepage": "https://vctg1.github.io/cened",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,7 @@
     "axios": "^0.27.2",
     "date-fns": "^2.29.1",
     "dotenv": "^16.0.1",
+    "gh-pages": "^4.0.0",
     "html-react-parser": "^1.4.14",
     "html-to-react": "^1.4.8",
     "react": "^18.2.0",
@@ -62,7 +63,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
-    "gh-pages": "^4.0.0",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.24"
   }
